@@ -1,5 +1,7 @@
 # smheer
 cotains code that I think one should have ready if slips from mind.
-- [x] Array
+- [x] Array Class
 - [x] Permutation of strings
-- [] Linked List
+- [x] Operator Overriding
+- [x] Merge Arrays  
+- [ ] Linked List
