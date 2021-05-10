@@ -4,4 +4,6 @@ cotains code that I think one should have ready if slips from mind.
 - [x] Permutation of strings
 - [x] Operator Overriding
 - [x] Merge Arrays  
+- [x] Matrix
+  - [x] Diagonal 
 - [ ] Linked List
