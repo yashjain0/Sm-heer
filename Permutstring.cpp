@@ -13,10 +13,12 @@ void perm(char s[], int k)
 	}
 	else
 	{
+		//if i comes to end, then A[i]=0, and go back to previous call and start from next.
 		for(i=0;s[i]!='\0';i++)
 		{
 			if(A[i]==0)
 			{
+				//when s[k]=="\0" that is k comes to end print the string.
 				Res[k]=s[i];
 				A[i]=1;
 				perm(s,k+1);
