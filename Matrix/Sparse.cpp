@@ -80,7 +80,9 @@ sum->ele=(struct Element *)malloc((s1->num+s2-
 //if at equal position
  else
  {
+	 //first stored from first matrix
  sum->ele[k]=s1->ele[i];
+	 //then the second one's value is added as dimensions are already given
  sum->ele[k++].x=s1->ele[i++].x+s2->ele[j++].x;
  }
  }
