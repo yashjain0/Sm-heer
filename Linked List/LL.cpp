@@ -44,6 +44,19 @@ void rdisplay(struct Node *p )
 	}
 }
 
+int count(struct Node *p)
+{
+	int l=0;
+	while(p)
+	{
+		l++;
+		//for sum
+		//s=s+p->data;
+		p=p->next;
+	}
+	return l;
+}
+
 
 int main()
 {
