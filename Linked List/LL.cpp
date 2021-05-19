@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include<iostream>
+
+using namespace std;
+
 struct Node
 {
  int data;
@@ -55,6 +59,20 @@ int count(struct Node *p)
 	return l;
 }
 
+int max(struct Node *p)
+{
+    int Max_int=p->data;
+    p=p->next;
+    while(p)
+    {
+        if(p->data>Max_int)
+        {
+            Max_int=p->data;
+        }
+        p=p->next;
+    }
+    return Max_int;
+}
 
 int main()
 {
@@ -62,4 +80,5 @@ int main()
 	create(A,5);
 	display(first);
 	return 0;
+	cout<<endl<<max(first);
 }
