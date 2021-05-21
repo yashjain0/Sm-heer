@@ -103,3 +103,36 @@ void Insert(struct Node *p,int index,int x)
 
  }
 }
+
+int delete( struct Node *p, int index)
+{
+	int i,x=-1;
+	struct Node *q=NULL;
+
+	if(index<1|| intdex>count(p))
+	{
+	return -1;
+	}
+
+	if(index==1)
+	{
+		q=first;
+		x=first->data;
+		first=first->next;
+		free(q);
+		return x;
+	}
+
+	else()
+	{
+		for(i=0;i<index-1;i++)
+		{
+			q=p;
+			p=p->next;
+		}
+		q->next=p->next;
+		x=p->data;
+		free(p);
+		return x;
+	}
+}
