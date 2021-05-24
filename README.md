@@ -6,8 +6,9 @@ cotains code that I think one should have ready if slips from mind.
   - [x] Duplicate and count   
 - [x] Operator Overloading
   - [x] +
-  - [x] << , >> 
+  - [x] (<< , >>) 
 - [x] Merge Arrays  
 - [x] Matrix
   - [x] Diagonal 
 - [ ] Linked List
+  - [x] Circular Linked List 
